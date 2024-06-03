@@ -1,0 +1,32 @@
+{
+    "material-icon-theme.activeIconPack": "react",
+    "material-icon-theme.files.associations": {
+      "*.js": "react",
+      "*.jsx": "react",
+      "*.ts": "react_ts",
+      "*.tsx": "react_ts"
+    },
+    "material-icon-theme.folders.associations": {
+      "components": "components",
+      "hooks": "hook",
+      "contexts": "context",
+      "utils": "tools"
+    },
+    
+      "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+      },
+      "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+      },
+      "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+      },
+      "emmet.showSuggestionsAsSnippets": true
+    
+    
+  }
+  
+  

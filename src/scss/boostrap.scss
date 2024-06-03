@@ -1,0 +1,9 @@
+// src/bootstrap.scss
+
+// Importar variables de Bootstrap (opcional)
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Importar Bootstrap
+@import "~bootstrap/scss/bootstrap";

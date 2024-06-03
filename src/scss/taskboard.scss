@@ -1,0 +1,99 @@
+$color-proceso: #f8d464;
+$color-completado: #a8ecb4;
+$color-cancelado: #f8d4d4;
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    #titulo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .centrado {
+        display: flex;
+        align-items: center;
+    }
+
+    .icon-large {
+        margin-right: 5px;
+        font-size: 2rem;
+    }
+
+    .centrado2 {
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+    }
+
+    .icon-small {
+        font-size: 1rem;
+    }
+
+    .tarjeta {
+        display: flex;
+        justify-content: center;
+    }
+
+    .custom-card {
+        border-radius: 10px;
+        width: 50%;
+        margin-bottom: 5px
+    }
+    .proceso{
+        background-color: $color-proceso;
+    }
+    .completado{
+        background-color: $color-completado;
+    }
+    .cancelado{
+        background-color: $color-cancelado;
+    }
+    .caja {
+        display: flex;
+        border-radius: 11px;
+        background-color: white;
+        width: -moz-fit-content;
+        align-items: center;
+        width: 7%;
+        justify-content: center;
+
+        .inc {
+            font-size: 1.5rem;
+        }
+
+    }
+
+    .card-titulo {
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+        font-family: cursive;
+        margin-top: 5px;
+    }
+
+    .caja2 {
+        display: flex;
+        border-radius: 11px;
+        background-color: white;
+        width: -moz-fit-content;
+        align-items: center;
+        width: 8%;
+        justify-content: center;
+
+        .inc {
+            font-size: 1rem;
+        }
+
+    }
+
+    .caja3 {
+        display: flex;
+        width: 100%;
+    }
+}
